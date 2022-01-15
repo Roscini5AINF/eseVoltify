@@ -36,7 +36,15 @@ public class MainActivity extends AppCompatActivity {
                 gb.addBrano(ed1.getText().toString(),Integer.parseInt(ed2.getText().toString()));
             }
         });
-        t1.setText(gb.ListaBrani());
+
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(), Lista.class);
+                i.putExtra("messaggio", gb.ListaBrani());
+            }
+        });
+
 
     }
 }
