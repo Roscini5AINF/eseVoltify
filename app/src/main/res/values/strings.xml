@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">eseVoltify</string>
+    <string name="t1">Inserisci le canzoni</string>
+
+
+    <string name="b1">Inserisci</string>
+    <string name="b2">Invia</string>
+
+    <string name="ed1">Titolo</string>
+    <string name="ed2">Durata</string>
+</resources>
