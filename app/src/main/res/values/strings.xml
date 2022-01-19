@@ -8,4 +8,17 @@
 
     <string name="ed1">Titolo</string>
     <string name="ed2">Durata</string>
+    <string name="ed3">Autore</string>
+    <string name="ed4">Datacreazione</string>
+    <string-array name="genere">
+        <item>Indie</item>
+        <item>Rock</item>
+        <item>Metal</item>
+        <item>Pop</item>
+        <item>Rap</item>
+        <item>Trap</item>
+        <item>K-pop</item>
+        <item>Country</item>
+        <item>Punk</item>
+    </string-array>
 </resources>
