@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*String[] generi= {"Pop", "Rock", "indie", "Country"};*/
         b1 = (Button)findViewById(R.id.b1);
         ed1 = (EditText) findViewById(R.id.ed1);
         b2 = (Button) findViewById(R.id.b2);
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 R.array.genere, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sp1.setAdapter(adapter);
+        /*ArrayAdapter<String> aag = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, generi);*/
 
 
 

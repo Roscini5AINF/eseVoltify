@@ -1,5 +1,7 @@
 package com.example.esevoltify;
 
+import android.widget.ArrayAdapter;
+
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -22,6 +24,7 @@ public class GestoreBrani {
             stbui.append(",");
         }
         stbui.deleteCharAt(-1);
+        stbui.append(".");
         String s = stbui.toString();
         return s;
 
