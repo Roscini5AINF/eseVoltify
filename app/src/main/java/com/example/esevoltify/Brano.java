@@ -27,22 +27,18 @@ public class Brano {
     }
 
     public void setAutore(String autore) {
-
         this.autore = autore;
     }
 
     public String getAutore() {
-
         return autore;
     }
 
     public void setDatacreazione(Date datacreazione) {
-
         this.datacreazione = datacreazione;
     }
 
     public Date getDatacreazione() {
-
         return datacreazione;
     }
 
@@ -51,7 +47,6 @@ public class Brano {
     }
 
     public int getDurata() {
-
         return durata;
     }
 

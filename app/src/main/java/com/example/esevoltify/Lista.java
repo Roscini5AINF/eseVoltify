@@ -17,6 +17,5 @@ public class Lista extends AppCompatActivity {
         i= getIntent();
         t2=(TextView) findViewById(R.id.t2);
         t2.setText(i.getStringExtra("messaggio"));
-
     }
 }

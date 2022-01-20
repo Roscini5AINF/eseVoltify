@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.TextView;
+
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     GestoreBrani gb;
     Button b2;
     EditText ed2;
-    TextView t1;
     EditText ed3;
     EditText ed4;
     Spinner sp1;
@@ -34,20 +33,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         /*String[] generi= {"Pop", "Rock", "indie", "Country"};*/
+
         b1 = (Button)findViewById(R.id.b1);
-        ed1 = (EditText) findViewById(R.id.ed1);
         b2 = (Button) findViewById(R.id.b2);
+
+        ed1 = (EditText) findViewById(R.id.ed1);
         ed2 =(EditText)findViewById(R.id.ed2);
-        gb=new GestoreBrani();
-        t1= (TextView)findViewById(R.id.t1);
         ed3= (EditText)findViewById(R.id.ed3);
         ed4 =(EditText)findViewById(R.id.ed4);
+
+        gb=new GestoreBrani();
+
         sp1=(Spinner)findViewById(R.id.sp1);
+
         DateFormat format = new SimpleDateFormat("MMMM d, yyyy", Locale.ENGLISH);
+
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.genere, android.R.layout.simple_spinner_item);
+
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sp1.setAdapter(adapter);
+
         /*ArrayAdapter<String> aag = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, generi);*/
 
 
