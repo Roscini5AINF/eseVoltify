@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 R.array.genere, android.R.layout.simple_spinner_item);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
         sp1.setAdapter(adapter);
 
         /*ArrayAdapter<String> aag = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, generi);*/

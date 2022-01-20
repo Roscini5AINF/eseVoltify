@@ -17,6 +17,7 @@ public class GestoreBrani {
         Brano b= new Brano(titolo,durata, autore, datacreazione, genere);
         listaBrani.add(b);
     }
+
     public String ListaBrani(){
         StringBuilder stbui= new StringBuilder(40);
         for(Brano Brv : listaBrani){
