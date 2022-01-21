@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         sp1=(Spinner)findViewById(R.id.sp1);
 
-        DateFormat format = new SimpleDateFormat("MMMM d, yyyy", Locale.ENGLISH);
+        DateFormat format = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.genere, android.R.layout.simple_spinner_item);

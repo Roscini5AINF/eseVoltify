@@ -18,9 +18,14 @@ public class GestoreBrani {
         listaBrani.add(b);
     }
     public StringBuilder ListaBrani(){
+        int n=1;
+        String s;
         StringBuilder stbui= new StringBuilder(1200);
         for(Brano Brv : listaBrani){
+            s= "Brano" + n + "\n";
+            stbui.append(s);
             stbui.append(Brv.toString());
+            n++;
         }
         return stbui;
     }
