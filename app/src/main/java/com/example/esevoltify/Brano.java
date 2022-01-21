@@ -11,7 +11,6 @@ public class Brano {
     private String genere;
     private String autore;
     private Date datacreazione;
-    DateFormat format = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
 
     public Brano (String titolo, int durata, String autore, Date datacrezione, String genere)
     {
@@ -65,10 +64,10 @@ public class Brano {
 
     @Override
     public String toString() {
-        DateFormat format = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
+        DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
         String s= format.format(datacreazione);
         return
-                "titolo=" + titolo + ", durata=" + durata + ", genere=" + genere + ", autore=" + autore + ", data creazione=" + s + "\n";
+                "Titolo: " + titolo + "\nDurata: " + durata + " secondi\nGenere: " + genere + "\nAutore:" + autore + "\nData Uscita:" + s + "\n";
 
     }
 }

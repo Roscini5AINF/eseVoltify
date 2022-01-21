@@ -8,9 +8,10 @@
     tools:context=".Lista">
 
     <TextView
-        android:id="@+id/t2"
-        android:layout_width="318dp"
-        android:layout_height="406dp"
+        android:id="@+id/tBrani"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars = "vertical"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

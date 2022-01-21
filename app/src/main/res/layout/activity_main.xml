@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/t1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/t1"
@@ -19,7 +18,7 @@
         app:layout_constraintVertical_bias="0.077" />
 
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/bInserisci"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/b1"
@@ -31,7 +30,7 @@
         app:layout_constraintVertical_bias="0.522" />
 
     <EditText
-        android:id="@+id/ed1"
+        android:id="@+id/edTitolo"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:ems="10"
@@ -45,7 +44,7 @@
         app:layout_constraintVertical_bias="0.158" />
 
     <Button
-        android:id="@+id/b2"
+        android:id="@+id/bInvia"
         android:layout_width="103dp"
         android:layout_height="54dp"
         android:text="@string/b2"
@@ -57,7 +56,7 @@
         app:layout_constraintVertical_bias="0.522" />
 
     <EditText
-        android:id="@+id/ed2"
+        android:id="@+id/edDurata"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:ems="10"
@@ -71,7 +70,7 @@
         app:layout_constraintVertical_bias="0.251" />
 
     <EditText
-        android:id="@+id/ed3"
+        android:id="@+id/edAutore"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:ems="10"
@@ -85,7 +84,7 @@
         app:layout_constraintVertical_bias="0.251" />
 
     <Spinner
-        android:id="@+id/sp1"
+        android:id="@+id/spGenere"
         android:layout_width="150dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -96,7 +95,7 @@
         app:layout_constraintVertical_bias="0.159" />
 
     <EditText
-        android:id="@+id/ed4"
+        android:id="@+id/edData"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:ems="10"
