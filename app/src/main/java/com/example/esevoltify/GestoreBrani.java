@@ -17,16 +17,11 @@ public class GestoreBrani {
         Brano b= new Brano(titolo,durata, autore, datacreazione, genere);
         listaBrani.add(b);
     }
-
-    public String ListaBrani(){
-        StringBuilder stbui= new StringBuilder(40);
+    public StringBuilder ListaBrani(){
+        StringBuilder stbui= new StringBuilder(1200);
         for(Brano Brv : listaBrani){
             stbui.append(Brv.toString());
-            stbui.append(";");
         }
-        stbui.deleteCharAt(-1);
-        stbui.append(".");
-        String s = stbui.toString();
-        return s;
+        return stbui;
     }
 }
