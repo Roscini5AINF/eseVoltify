@@ -62,7 +62,7 @@ public class Brano {
     @Override
     public String toString() {
         return
-                "titolo=" + titolo + ", durata=" + durata + ", genere=" + genere + ", autore=" + autore + ", data creazione=" + datacreazione;
+                "titolo=" + titolo + ", durata=" + durata + ", genere=" + genere + ", autore=" + autore + ", data creazione=" + datacreazione + "\n";
 
     }
 }

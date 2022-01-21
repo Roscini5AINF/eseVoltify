@@ -74,8 +74,10 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                StringBuilder s= new StringBuilder();
+                s=gb.ListaBrani();
                 Intent i=new Intent(getApplicationContext(), Lista.class);
-                i.putExtra("messaggio", gb.ListaBrani());
+                i.putExtra("messaggio", s.toString());
                 startActivity(i);
             }
         });
