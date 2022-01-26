@@ -24,9 +24,10 @@ public class GestoreBrani {
         String s;
         StringBuilder stbui= new StringBuilder(1200); //creazione della variabile stringbuilder
         for(Brano Brv : listaBrani){
-            s= "Brano" + n + "\n";
+            s= "Brano n." + n + "\n";
             stbui.append(s); //aggiunta alla variiabile stringbuilder il numero di brani
             stbui.append(Brv.toString()); //aggiunta alla variiabile stringbuilder il brano
+            stbui.append("\n");
             n++;
         }
         return stbui;
